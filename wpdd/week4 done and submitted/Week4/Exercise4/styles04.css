@@ -1,0 +1,42 @@
+/* styles04.css */
+/* Name: Sabbir Hasan Rabbi */
+/* Date: 11/08/2024 */
+
+body {
+  color: black;
+  background-color: #eab;
+}
+
+#wrapper {
+  width: 90%;
+  margin: 0 auto;
+}
+
+header,
+nav,
+footer {
+  font-family: Calibri, Arial, sans-serif;
+}
+
+#main {
+  font-family: Helvetica, "Times New Roman", serif;
+  background-color: #f0f9e6;
+  padding: 10px;
+}
+
+footer {
+  font-size: 0.8em;
+  text-align: center;
+}
+
+img {
+  float: left;
+}
+
+.rightmargin {
+  margin-right: 2%;
+}
+
+nav {
+  clear: both;
+}
