@@ -1,0 +1,159 @@
+/* Style sheet created by: Sabbir Hasan Rabbi, Date: 22/08/2024  */
+
+/* Style for body specifies a background color */
+body {
+  background-color: #ffffff;
+}
+
+/* Styles for Mobile Layout */
+
+/* Style for the container centers the page and specifies the width */
+#container {
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* Style for the header specifies top margin, background color, rounded corners, and center align content */
+header {
+  font-family: Verdana, Arial, serif;
+  font-size: 2em;
+  margin-top: 0.2em;
+  background-color: #ffffff;
+  border-radius: 0.5em;
+  text-align: center;
+}
+
+/* Style for nav specifies text properties */
+nav {
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: 1em;
+  font-weight: bold;
+  text-align: center;
+}
+
+/* Style for the main specifies a block display, text properties, margins, padding, rounded corners, and borders  */
+main {
+  display: block;
+  font-family: Georgia, "Times New Roman", sans-serif;
+  font-size: 1em;
+  margin-top: 0.2em;
+  padding: 0.5em;
+  border-top: solid 0.2em #ff6600;
+  border-bottom: solid 0.2em #ff6600;
+}
+
+/* Style for the footer specifies font size, text alignment, and top margin */
+footer {
+  font-size: 0.7em;
+  text-align: center;
+  margin-top: 2em;
+}
+
+.mobile {
+  display: inline;
+}
+
+/* Hide desktop content on mobile layout */
+.desktop {
+  display: none;
+}
+
+/* Tablet Styles */
+@media (min-width: 481px) {
+  img {
+    /* this is for image */
+    width: 25%;
+    float: left;
+  }
+  header p {
+    /* this is for header*/
+    margin-bottom: 4em;
+    padding-top: 1.5em;
+  }
+  nav li {
+    /* nav section of tablet styles */
+    display: inline;
+    float: left;
+
+    margin-left: 1%;
+    margin-right: 1%;
+    padding-left: 0;
+    padding-right: 0;
+    width: 23%;
+  }
+
+  nav ul {
+    list-style-type: none;
+    padding: 0;
+  }
+
+  nav ul li {
+    margin-bottom: 10px;
+  }
+
+  nav ul li a {
+    display: block;
+    padding: 10px;
+    background-color: #ff6600;
+    color: white;
+    text-decoration: none;
+    border-radius: 20px;
+  }
+
+  main {
+    clear: left;
+    margin-top: 12em;
+  }
+  .mobile {
+    display: none;
+  }
+  .desktop {
+    display: inline;
+  }
+}
+
+/* Desktop Styles */
+@media (min-width: 769px) {
+  #container {
+    /*container for desktop view */
+    width: 80%;
+  }
+  nav {
+    /* nav for desktop*/
+    margin-top: -5em;
+  }
+  nav ul {
+    margin: 0;
+    padding-left: 0.5%;
+    padding-right: 0.5%;
+  }
+  nav li {
+    background-color: #ffffff;
+    border-radius: 0;
+    margin-left: 0;
+    margin-right: 0;
+    padding: 0;
+    width: 18%;
+  }
+  nav li a {
+    color: #ff6600;
+    display: inline-block;
+    padding: 0.7em;
+    font-size: 1.25em;
+  }
+  nav li a:link {
+    color: #ff6600;
+  }
+  nav li a:hover {
+    color: #4c1f00;
+    font-style: italic;
+  }
+  main {
+    /* main section design for desktop */
+    border: none;
+    border-radius: 1em;
+    box-shadow: 1em 1em 1em #331400;
+    margin-top: 1em;
+  }
+}

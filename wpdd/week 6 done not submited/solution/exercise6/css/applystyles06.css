@@ -1,0 +1,61 @@
+/* Style sheet created by:Sabbir Hasan Rabbi, Today's Date:22/08/2024 */
+
+/* Style for body specifies a background color */
+body {
+  background-color: #32a6ff;
+}
+
+/* Style to create a fluid image */
+img {
+  max-width: 100%;
+  margin: 1%;
+  border: double 0.3em #000014;
+  width: 100%;
+}
+
+/*tablet*/
+@media (min-width: 481px) {
+  img {
+    width: 45%;
+  }
+}
+
+/* desktop  */
+@media (min-width: 769px) {
+  img {
+    width: 30%;
+  }
+}
+
+/* Style for the container centers the page and specifies the width */
+#container {
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* Style for the header specifies top margin, background color, rounded corners, and center align content */
+header {
+  font-family: Verdana, Arial, sans-serif;
+  margin-top: 0.2em;
+  text-align: center;
+}
+
+/* Style for the main specifies a block display, text properties, margins, padding, rounded corners, and borders  */
+main {
+  display: block;
+  margin-top: 0.5em;
+  padding: 1em;
+  border-radius: 1em;
+  background-color: #ffffff;
+  box-shadow: 0.5em 0.5em 0.5em #404040;
+}
+
+/* Style for the footer specifies font size, text alignment, and top margin */
+footer {
+  font-size: 0.7em;
+  text-align: center;
+  margin-top: 2em;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
