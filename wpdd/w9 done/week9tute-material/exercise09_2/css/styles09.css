@@ -1,0 +1,83 @@
+/* Style sheet created by:  Sabbir Hasan Rabbi, Date: 12/09/2024 */
+
+/* Style for body specifies a background color */
+body {
+  background-color: #e1e4f5;
+}
+
+/* Style for the container centers the page and specifies the width */
+#container {
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* Style for the header specifies top margin, background color, rounded corners, and center align content */
+header {
+  margin-top: 0.2em;
+  text-align: center;
+  font-size: 2em;
+  font-weight: bold;
+}
+
+/* Style for nav specifies text properties */
+nav {
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: 1.25em;
+  font-weight: bold;
+  text-align: center;
+}
+
+/* Style specifies padding and margins for unordered list */
+nav ul {
+  padding: 0;
+  margin-top: 0.5em;
+  margin-bottom: 0.5em;
+}
+
+/* Style for nav li */
+nav li {
+  display: inline;
+  list-style-type: none;
+  margin: 0.3em;
+  padding: 0.4em;
+}
+
+/* Style for nav links */
+nav li a {
+  color: #0c1c96;
+  text-decoration: none;
+}
+
+/* Style for the main */
+main {
+  display: block;
+  font-family: Verdana, Arial, sans-serif;
+  font-size: 1em;
+  margin-top: 0.5em;
+  padding: 1em;
+  border-radius: 1em;
+  background-color: #ffffff;
+  border: inset 0.2em #7a6d68;
+}
+
+/* Center align the figure element */
+figure {
+  text-align: center;
+  margin: 2em 0;
+  /* Align the figure element in the center */
+}
+
+/* Style for the img element, with 1em of padding */
+figure img {
+  padding: 1em;
+  border: 1px solid #ccc;
+  cursor: pointer;
+}
+
+/* Style for the footer specifies font size, text alignment, and top margin */
+footer {
+  font-size: 0.9em;
+  text-align: center;
+  margin-top: 2em;
+}
